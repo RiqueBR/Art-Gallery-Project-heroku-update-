@@ -1,9 +1,8 @@
 require('sinatra')
 require('sinatra/contrib/all')
-require('pry-byebug')
 require_relative('../models/artist')
 require_relative('../models/exhibition')
-also_reload('../models/*')
+
 
 get '/admin/artist' do
   @artists = Artist.find_all()

@@ -10,7 +10,7 @@ CREATE TABLE artists (
   artist_info TEXT,
   artist_img TEXT
 );
--- Potentially extra variables...
+
 
 CREATE TABLE exhibitions (
   id SERIAL8 primary key,
@@ -20,5 +20,3 @@ CREATE TABLE exhibitions (
   exhibition_info TEXT,
   exhibit_img TEXT
 );
-
--- Again, potentially other variables or maybe a new class
